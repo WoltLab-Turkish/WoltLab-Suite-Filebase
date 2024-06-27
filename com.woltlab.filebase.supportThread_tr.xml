@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="tr" languagename="Turkish" countrycode="tr">
+	<category name="filebase.file">
+		<item name="filebase.file.button.jumpToSupportThread"><![CDATA[Destek Konusu]]></item>
+		<item name="filebase.file.supportThread.boardID"><![CDATA[Forum]]></item>
+		<item name="filebase.file.supportThread.boardID.description"><![CDATA[Destek ve tartışma konuları seçilen forumda oluşturulacaktır.]]></item>
+		<item name="filebase.file.supportThread.info"><![CDATA[{#$supportThread->replies} {if $supportThread->replies == 1}cevap{else}cevaplar{/if}{if $supportThread->replies > 0}, son: {time time=$supportThread->lastPostTime}{/if}]]></item>
+		<item name="filebase.file.supportThread.message"><![CDATA[<p>{$file->username} yeni bir dosya ekledi:<br>[file]{$file->fileID}[/file]</p>
+<woltlab-quote>{@$fileContent->getMessage()}</woltlab-quote>]]></item>
+		<item name="filebase.file.supportThread.subject"><![CDATA[{@$fileContent->getSubject()}]]></item>
+		<item name="filebase.file.supportThread.versionMessage"><![CDATA[<p>{$version->getFile()->username} yeni bir sürüm ekledi:<br>[fileversion]{$version->versionID}[/fileversion]</p>
+<woltlab-quote>{@$versionContent->getDescription()}</woltlab-quote>]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.filebase.supportThread"><![CDATA[Destek Konusu]]></item>
+		<item name="wcf.acp.option.category.filebase.supportThread.description"><![CDATA[Yeni her dosya için destek ve tartışma konuları otomatik olarak seçilen forumda oluşturulur.]]></item>
+		<item name="wcf.acp.option.filebase_support_thread_board_id"><![CDATA[Forum]]></item>
+		<item name="wcf.acp.option.filebase_support_thread_board_id.description"><![CDATA[Destek ve tartışma konuları seçilen forumda oluşturulacaktır.]]></item>
+		<item name="wcf.acp.option.filebase_support_thread_categories"><![CDATA[Kategoriler]]></item>
+		<item name="wcf.acp.option.filebase_support_thread_categories.description"><![CDATA[Yalnızca seçilen kategorilerdeki dosyalar için destek ve tartışma konuları oluşturun.]]></item>
+		<item name="wcf.acp.option.filebase_support_thread_single_board"><![CDATA[Tüm kategoriler için tek forum]]></item>
+		<item name="wcf.acp.option.filebase_support_thread_single_board.description"><![CDATA[Destek ve tartışma konuları, seçilen forumda oluşturulacaktır, kategorilerden bağımsız olarak. Bu özelliği devre dışı bırakarak istenen kategorileri düzenleyebilir ve bunlara belirli bir forum atayabilirsiniz.]]></item>
+	</category>
+</language>

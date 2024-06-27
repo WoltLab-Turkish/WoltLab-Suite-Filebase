@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="tr" languagename="Turkish" countrycode="tr">
+	<category name="filebase.acp.file">
+		<item name="filebase.acp.file.option.add"><![CDATA[Seçenek Alanı Ekle]]></item>
+		<item name="filebase.acp.file.option.categoryIDs"><![CDATA[Kategoriler]]></item>
+		<item name="filebase.acp.file.option.categoryIDs.description"><![CDATA[Seçenek alanı yalnızca seçilen kategorilerdeki dosyalar için geçerlidir. Eğer bir kategori seçilmezse, seçenek alanı tüm kategorilerde geçerli olur.]]></item>
+		<item name="filebase.acp.file.option.defaultValue"><![CDATA[Varsayılan Değer]]></item>
+		<item name="filebase.acp.file.option.defaultValue.description"><![CDATA[İlk düzenleme sırasında önerilen varsayılan seçenek değeri.]]></item>
+		<item name="filebase.acp.file.option.edit"><![CDATA[Seçenek Alanını Düzenle]]></item>
+		<item name="filebase.acp.file.option.list"><![CDATA[Seçenek Alanları]]></item>
+		<item name="filebase.acp.file.option.optionType"><![CDATA[Seçenek Türü]]></item>
+		<item name="filebase.acp.file.option.optionType.URL"><![CDATA[Bağlantı]]></item>
+		<item name="filebase.acp.file.option.optionType.boolean"><![CDATA[Evet/Hayır]]></item>
+		<item name="filebase.acp.file.option.optionType.boolean.no"><![CDATA[Hayır]]></item>
+		<item name="filebase.acp.file.option.optionType.boolean.yes"><![CDATA[Evet]]></item>
+		<item name="filebase.acp.file.option.optionType.checkboxes"><![CDATA[Onay Kutuları]]></item>
+		<item name="filebase.acp.file.option.optionType.date"><![CDATA[Tarih]]></item>
+		<item name="filebase.acp.file.option.optionType.float"><![CDATA[Ondalık]]></item>
+		<item name="filebase.acp.file.option.optionType.integer"><![CDATA[Tamsayı]]></item>
+		<item name="filebase.acp.file.option.optionType.message"><![CDATA[Çok Satırlı Metin (bbcode desteği)]]></item>
+		<item name="filebase.acp.file.option.optionType.multiSelect"><![CDATA[Çoklu Seçim]]></item>
+		<item name="filebase.acp.file.option.optionType.radioButton"><![CDATA[Radyo Seçimi]]></item>
+		<item name="filebase.acp.file.option.optionType.select"><![CDATA[Tekli Seçim]]></item>
+		<item name="filebase.acp.file.option.optionType.text"><![CDATA[Kısa Metin]]></item>
+		<item name="filebase.acp.file.option.optionType.textarea"><![CDATA[Çok Satırlı Metin]]></item>
+		<item name="filebase.acp.file.option.required"><![CDATA[Bu zorunlu bir alandır]]></item>
+		<item name="filebase.acp.file.option.selectOptions"><![CDATA[Seçenekler]]></item>
+		<item name="filebase.acp.file.option.selectOptions.description"><![CDATA[Seçim türleri ile birlikte seçim seçeneklerini kullanabilirsiniz, ancak iki nokta üst üste kullanmanın sistemin sol taraftaki her şeyi içsel bir tanımlayıcı olarak kullanmasına ve yalnızca kullanıcıya görüntülenecek kısmın kalmasına neden olacağını unutmayın. Bu, kullanıcıya gösterilen değeri mevcut seçimlere zarar vermeden değiştirmenize olanak tanır, ancak tanımlayıcının kendisi değiştirilmedikçe. Her satıra bir seçim seçeneği girin.]]></item>
+		<item name="filebase.acp.file.option.showOrder"><![CDATA[Gösterim Sırası]]></item>
+		<item name="filebase.acp.file.option.typeData"><![CDATA[Özellikler]]></item>
+		<item name="filebase.acp.file.option.validationPattern"><![CDATA[Düzenli İfade]]></item>
+		<item name="filebase.acp.file.option.validationPattern.description"><![CDATA[Kullanıcı girdisini doğrulamak için bir düzenli ifade sağlayabilirsiniz.]]></item>
+		<item name="filebase.acp.file.paymentLog"><![CDATA[İşlem]]></item>
+		<item name="filebase.acp.file.paymentLog.list"><![CDATA[İşlemler]]></item>
+		<item name="filebase.acp.file.paymentLog.logMessage"><![CDATA[Eylem]]></item>
+		<item name="filebase.acp.file.paymentLog.logTime"><![CDATA[Tarih]]></item>
+		<item name="filebase.acp.file.paymentLog.paymentMethod"><![CDATA[Ödeme Yöntemi]]></item>
+		<item name="filebase.acp.file.paymentLog.transactionDetails"><![CDATA[Ayrıntılar]]></item>
+		<item name="filebase.acp.file.paymentLog.transactionID"><![CDATA[İşlem Kimliği]]></item>
+	</category>
+	<category name="filebase.acp.license">
+		<item name="filebase.acp.license.add"><![CDATA[Lisans Ekle]]></item>
+		<item name="filebase.acp.license.edit"><![CDATA[Lisansı Düzenle]]></item>
+		<item name="filebase.acp.license.list"><![CDATA[Lisanslar]]></item>
+	</category>
+	<category name="filebase.acp.menu">
+		<item name="filebase.acp.menu.link.filebase"><![CDATA[Dosya Tabanı]]></item>
+		<item name="filebase.acp.menu.link.filebase.category.add"><![CDATA[Kategori Ekle]]></item>
+		<item name="filebase.acp.menu.link.filebase.category.list"><![CDATA[Kategoriler]]></item>
+		<item name="filebase.acp.menu.link.filebase.file.option.add"><![CDATA[Seçenek Alanı Ekle]]></item>
+		<item name="filebase.acp.menu.link.filebase.file.option.list"><![CDATA[Seçenek Alanları]]></item>
+		<item name="filebase.acp.menu.link.filebase.license.add"><![CDATA[Lisans Ekle]]></item>
+		<item name="filebase.acp.menu.link.filebase.license.list"><![CDATA[Lisanslar]]></item>
+	</category>
+	<category name="filebase.category">
+		<item name="filebase.category.categories"><![CDATA[Kategoriler]]></item>
+		<item name="filebase.category.delete.sure"><![CDATA[Bu kategoriyi gerçekten silmek istiyor musunuz? Bu kategorinin tüm alt kategorileri, bu kategorinin üst kategorisine taşınacak. Yalnızca bu kategoride bulunan dosyalar ve bu kategori için geçerli olan dosya seçenekleri silinecek.]]></item>
+	</category>
+	<category name="filebase.file">
+		<item name="filebase.file.add"><![CDATA[Dosya Yükle]]></item>
+		<item name="filebase.file.author"><![CDATA[Yazar]]></item>
+		<item name="filebase.file.authors"><![CDATA[Ek Yazarlar]]></item>
+		<item name="filebase.file.authors.description"><![CDATA[İsteğe bağlı: Bu dosyayı düzenleyebilecek ve yeni sürümler ekleyebilecek ek kullanıcıları ekleyebilirsiniz. Birden fazla kullanıcıyı virgülle ayırınız.]]></item>
+		<item name="filebase.file.authors.error.notFound"><![CDATA[“{$errorData[username]}” kullanıcı adı bulunamadı.]]></item>
+		<item name="filebase.file.averageRating"><![CDATA[İncelemeler]]></item>
+		<item name="filebase.file.averageRatingFiles"><![CDATA[En İyi İncelemeler]]></item>
+		<item name="filebase.file.button.download"><![CDATA[İndir]]></item>
+		<item name="filebase.file.button.markAll"><![CDATA[Hepsini İşaretle]]></item>
+		<item name="filebase.file.categorizedFiles"><![CDATA["{$category->getTitle()}” kategorisindeki dosyalar]]></item>
+		<item name="filebase.file.categorizedUnreadFiles"><![CDATA["{$category->getTitle()}” kategorisindeki yeni dosyalar]]></item>
+		<item name="filebase.file.category"><![CDATA[Kategori]]></item>
+		<item name="filebase.file.category.moderation.info"><![CDATA[Bu kategorideki yeni yüklenen dosyalar, bir moderatör tarafından onaylanana kadar diğer kullanıcılar tarafından erişilemez olacaktır.]]></item>
+		<item name="filebase.file.comment"><![CDATA[Dosya Yorumu]]></item>
+		<item name="filebase.file.comment.like.notification.message"><![CDATA[<strong>{$author}</strong>, <strong>{$file->getTitle()}</strong> dosyanızdaki yorumunuza tepki verdi ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="filebase.file.comment.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language}, <strong>{$file->getTitle()}</strong> dosyanızdaki yorumunuza tepki verdi ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="filebase.file.comment.like.notification.title"><![CDATA[Yoruma Tepki (Dosya)]]></item>
+		<item name="filebase.file.comment.like.notification.title.stacked"><![CDATA[{#$count} kullanıcı yorumunuza tepki verdi (Dosya)]]></item>
+		<item name="filebase.file.comment.notification.mail.html"><![CDATA[<p>{@$authorList}, <a href="{$file->getLink()}#comments/comment{@$commentID}">{$file->getSubject()}</a> dosyanıza yorum yaptı:</p>]]></item>
+		<item name="filebase.file.comment.notification.mail.plaintext"><![CDATA[{@$authorList}, “{@$file->getSubject()}” dosyanıza yorum yaptı [URL:{@$file->getLink()}#comments/comment{@$commentID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
+		<item name="filebase.file.comment.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir misafir{/if}, <strong>{$file->getTitle()}</strong> dosyanıza yorum yaptı.]]></item>
+		<item name="filebase.file.comment.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language}, <strong>{$file->getTitle()}</strong> dosyanıza yorum yaptı.]]></item>
+		<item name="filebase.file.commentResponse"><![CDATA[Yorum Yanıtı]]></item>
+		<item name="filebase.file.commentResponse.like.notification.message"><![CDATA[<strong>{$author}</strong>, <strong>{$file->getTitle()}</strong> dosyasındaki yorumunuzun yanıtına tepki verdi ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="filebase.file.commentResponse.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language}, <strong>{$file->getTitle()}</strong> dosyasındaki yorumunuzun yanıtına tepki verdi ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="filebase.file.commentResponse.like.notification.title"><![CDATA[Yanıtınıza Tepki (Dosya Yorumu)]]></item>
+		<item name="filebase.file.commentResponse.like.notification.title.stacked"><![CDATA[{#$count} kullanıcı yanıtınıza tepki verdi (Dosya Yorumu)]]></item>
+		<item name="filebase.file.commentResponse.notification.mail.html"><![CDATA[<p>{@$authorList}, <a href="{$file->getLink()}#comments/comment{@$commentID}/response{@$responseID}">{$file->getSubject()}</a> dosyanızdaki yorumunuza yanıt verdi:</p>]]></item>
+		<item name="filebase.file.commentResponse.notification.mail.plaintext"><![CDATA[{@$authorList}, “{@$file->getSubject()}” dosyanızdaki yorumunuza yanıt verdi [URL:{@$file->getLink()}#comments/comment{@$commentID}/response{@$responseID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
+		<item name="filebase.file.commentResponse.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir misafir{/if}, <strong>{$file->getTitle()}</strong> dosyanızdaki yorumunuza yanıt verdi.]]></item>
+		<item name="filebase.file.commentResponse.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language}, <strong>{$file->getTitle()}</strong> dosyanızdaki yorumunuza yanıt verdi.]]></item>
+		<item name="filebase.file.commentResponseOwner.notification.mail.html"><![CDATA[<p>{@$authorList}, <strong>{$commentAuthor}</strong>’in <a href="{$file->getLink()}#comments/comment{@$commentID}/response{@$responseID}">{$file->getSubject()}</a> dosyanızdaki yorumuna yanıt verdi:</p>]]></item>
+		<item name="filebase.file.commentResponseOwner.notification.mail.plaintext"><![CDATA[{@$authorList}, {@$commentAuthor}’in “{@$file->getSubject()}” dosyanızdaki yorumuna yanıt verdi [URL:{@$file->getLink()}#comments/comment{@$commentID}/response{@$responseID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
+		<item name="filebase.file.commentResponseOwner.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir misafir{/if}, <strong>{$commentAuthor}</strong>’in <strong>{$file->getTitle()}</strong> dosyanızdaki yorumuna yanıt verdi.]]></item>
+		<item name="filebase.file.commentResponseOwner.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language}, <strong>{$author}</strong>’in <strong>{$file->getTitle()}</strong> dosyanızdaki yorumuna yanıt verdi.]]></item>
+		<item name="filebase.file.comments"><![CDATA[Yorumlar]]></item>
+		<item name="filebase.file.condition.isFeatured"><![CDATA[Sadece Öne Çıkan Dosyalar]]></item>
+		<item name="filebase.file.confirmDelete"><![CDATA[Bu dosyayı gerçekten silmek istiyor musunuz?]]></item>
+		<item name="filebase.file.confirmTrash"><![CDATA[Bu dosyayı gerçekten çöp kutusuna taşımak istiyor musunuz?]]></item>
+		<item name="filebase.file.confirmTrash.reason"><![CDATA[Sebep (isteğe bağlı)]]></item>
+		<item name="filebase.file.cumulativeLikes"><![CDATA[Tepkiler]]></item>
+		<item name="filebase.file.download.loginInfo"><![CDATA[Lütfen giriş yapın]]></item>
+		<item name="filebase.file.downloadFromExternalURL"><![CDATA[Dış URL'den indir]]></item>
+		<item name="filebase.file.downloadURL.error.invalid"><![CDATA[Girilen bağlantı geçersiz.]]></item>
+		<item name="filebase.file.downloads"><![CDATA[İndirmeler]]></item>
+		<item name="filebase.file.edit"><![CDATA[Dosyayı Düzenle]]></item>
+		<item name="filebase.file.edit.assignLabel"><![CDATA[Etiket Ata]]></item>
+		<item name="filebase.file.edit.delete"><![CDATA[Sil]]></item>
+		<item name="filebase.file.edit.disable"><![CDATA[Devre Dışı Bırak]]></item>
+		<item name="filebase.file.edit.enable"><![CDATA[Onayla]]></item>
+		<item name="filebase.file.edit.restore"><![CDATA[Geri Yükle]]></item>
+		<item name="filebase.file.edit.setAsFeatured"><![CDATA[Öne Çıkart]]></item>
+		<item name="filebase.file.edit.trash"><![CDATA[Çöp Kutusuna Taşı]]></item>
+		<item name="filebase.file.edit.unsetAsFeatured"><![CDATA[Öne Çıkarma İşaretini Kaldır]]></item>
+		<item name="filebase.file.editReason"><![CDATA[Düzenleme Nedeni (isteğe bağlı)]]></item>
+		<item name="filebase.file.enableComments"><![CDATA[Yorumları Etkinleştir]]></item>
+		<item name="filebase.file.enableComments.description"><![CDATA[Kullanıcıların bu dosya üzerine yorum yapmasına izin verir.]]></item>
+		<item name="filebase.file.enableReviews"><![CDATA[İncelemeleri Etkinleştir]]></item>
+		<item name="filebase.file.enableReviews.description"><![CDATA[Kullanıcıların bu dosya hakkında inceleme oluşturmasına izin verir.]]></item>
+		<item name="filebase.file.externalURL"><![CDATA[Dış URL]]></item>
+		<item name="filebase.file.featured"><![CDATA[Öne Çıkan]]></item>
+		<item name="filebase.file.featuredFiles"><![CDATA[Öne Çıkan Dosyalar]]></item>
+		<item name="filebase.file.file"><![CDATA[Dosya]]></item>
+		<item name="filebase.file.fileComments"><![CDATA[{@$file->comments|shortUnit} Yorum{if $file->comments != 1}lar{/if}]]></item>
+		<item name="filebase.file.fileDownloads"><![CDATA[{@$file->downloads|shortUnit} İndirme{if $file->downloads != 1}ler{/if}]]></item>
+		<item name="filebase.file.files"><![CDATA[Dosyalar]]></item>
+		<item name="filebase.file.hasOldVersions"><![CDATA[Eski Sürümler]]></item>
+		<item name="filebase.file.icon"><![CDATA[Simge]]></item>
+		<item name="filebase.file.icon.delete"><![CDATA[Simgeyi Sil]]></item>
+		<item name="filebase.file.icon.delete.confirmMessage"><![CDATA[Bu simgeyi gerçekten silmek istiyor musunuz?]]></item>
+		<item name="filebase.file.icon.description"><![CDATA[Simge, dosyanın yanında görüntülenecektir. Simgenin boyutları en az 144 × 144 piksel olmalıdır.<br>Kabul edilen dosya uzantıları: jpg, jpeg, png, webp]]></item>
+		<item name="filebase.file.icon.error.invalidExtension"><![CDATA[Dosya uzantısı geçersiz.]]></item>
+		<item name="filebase.file.icon.error.noImage"><![CDATA[Seçilen dosya bir resim değil.]]></item>
+		<item name="filebase.file.icon.error.tooLarge"><![CDATA[Simge çok büyük.]]></item>
+		<item name="filebase.file.icon.error.tooSmall"><![CDATA[Simge çok küçük.]]></item>
+		<item name="filebase.file.icon.error.uploadFailed"><![CDATA[Yükleme sırasında bilinmeyen bir hata oluştu.]]></item>
+		<item name="filebase.file.icon.fontAwesome"><![CDATA[FontAwesome Simge]]></item>
+		<item name="filebase.file.icon.none"><![CDATA[Varsayılan İkon]]></item>
+		<item name="filebase.file.icon.upload"><![CDATA[Yüklenen İkon]]></item>
+		<item name="filebase.file.information"><![CDATA[Dosya Detayları]]></item>
+		<item name="filebase.file.ipAddress"><![CDATA[IP adresi]]></item>
+		<item name="filebase.file.isDeleted"><![CDATA[Silinmiş]]></item>
+		<item name="filebase.file.isDisabled"><![CDATA[Devre Dışı]]></item>
+		<item name="filebase.file.labeledFiles"><![CDATA[“{$label->getTitle()}” Etiketiyle Atanmış Dosyalar]]></item>
+		<item name="filebase.file.lastChangeTime"><![CDATA[En Son Değişiklik]]></item>
+		<item name="filebase.file.latestUpdates"><![CDATA[En Son Güncellemeler]]></item>
+		<item name="filebase.file.like.notification.message"><![CDATA[<strong>{$author}</strong>, dosyanız <strong>{$file->getTitle()}</strong> için tepki verdi ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="filebase.file.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language}, dosyanız <strong>{$file->getTitle()}</strong> için tepki verdi ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="filebase.file.like.notification.title"><![CDATA[Dosyanıza Tepki]]></item>
+		<item name="filebase.file.like.notification.title.stacked"><![CDATA[{#$count} kullanıcı dosyanıza tepki verdi]]></item>
+		<item name="filebase.file.message"><![CDATA[Açıklama]]></item>
+		<item name="filebase.file.moderation.disabledFile"><![CDATA[Bu dosya, bir moderatör tarafından onaylanana kadar diğer kullanıcılar tarafından erişilemez olacaktır.]]></item>
+		<item name="filebase.file.moderation.info"><![CDATA[Yeni yüklenen dosyalar, bir moderatör tarafından onaylanana kadar diğer kullanıcılar tarafından erişilemez olacaktır.]]></item>
+		<item name="filebase.file.moreFiles"><![CDATA[Daha Fazla Dosya]]></item>
+		<item name="filebase.file.moreFiles.all"><![CDATA[Tüm Dosyalar]]></item>
+		<item name="filebase.file.moreUserFiles"><![CDATA[{$file->username} Kullanıcısının Daha Fazla Dosyası]]></item>
+		<item name="filebase.file.mostDownloadedFiles"><![CDATA[En Çok İndirilenler]]></item>
+		<item name="filebase.file.newestFiles"><![CDATA[Yeni]]></item>
+		<item name="filebase.file.noFile"><![CDATA[Dosya Yok]]></item>
+		<item name="filebase.file.noFile.description"><![CDATA[Bu seçenekle, örneğin açıklama ve ekler aracılığıyla bilgi sağlayabilirsiniz.]]></item>
+		<item name="filebase.file.notification.mail.html"><![CDATA[<p><strong>{$author}</strong>, <a href="{$file->getLink()}">{$file->getTitle()}</a> dosyasını ekledi:</p>]]></item>
+		<item name="filebase.file.notification.mail.plaintext"><![CDATA[{@$author} “{@$file->getTitle()}” dosyasını ekledi [URL:{@$file->getLink()}]:]]></item>
+		<item name="filebase.file.notification.message"><![CDATA[<strong>{$author}</strong>, dosyanızı <strong>{$file->getTitle()}</strong> ekledi.]]></item>
+		<item name="filebase.file.notification.moderation.enable.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if}, dosyanızı onayladı <strong>{$file->getTitle()}</strong>.]]></item>
+		<item name="filebase.file.notification.moderation.enable.notification.title"><![CDATA[Dosyanız Onaylandı]]></item>
+		<item name="filebase.file.notification.moderation.setLabel.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if}, dosyanıza {if $wasRemoved}etiket kaldırdı{else}etiket ekledi{/if} {@$label->render()} {if $wasRemoved}dosyanızdan{else}dosyanıza{/if} <strong>{$file->getTitle()}</strong>.]]></item>
+		<item name="filebase.file.notification.moderation.setLabel.notification.title"><![CDATA[Dosyanıza Etiket Eklendi]]></item>
+		<item name="filebase.file.notification.moderation.trash.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if}, dosyanızı çöpe attı <strong>{$file->getTitle()}</strong>{if !$userNotificationObject->getDecoratedObject()->reason|empty} sebep “{$userNotificationObject->getDecoratedObject()->__get('reason')|truncate:255:'…'}”{/if}.]]></item>
+		<item name="filebase.file.notification.moderation.trash.notification.title"><![CDATA[Dosyanız Çöpe Atıldı]]></item>
+		<item name="filebase.file.notification.title"><![CDATA[Yeni Dosya]]></item>
+		<item name="filebase.file.option.error.validationFailed"><![CDATA[Girilen değer geçersiz.]]></item>
+		<item name="filebase.file.options"><![CDATA[Ek Bilgiler]]></item>
+		<item name="filebase.file.overview"><![CDATA[Genel Bakış]]></item>
+		<item name="filebase.file.random"><![CDATA[Rastgele]]></item>
+		<item name="filebase.file.recentActivity.file"><![CDATA[{if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if} dosya ekledi {anchor object=$file class='filebaseFileLink'}.]]></item>
+		<item name="filebase.file.recentActivity.fileComment"><![CDATA[Dosyaya yorum yaptı {if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}<a href="{$file->getLink()}#comments/comment{@$commentID}" class="filebaseFileLink" data-object-id="{@$file->fileID}">{$file->getTitle()}</a>.]]></item>
+		<item name="filebase.file.recentActivity.fileCommentResponse"><![CDATA[{user object=$commentAuthor} yorumuna yanıt verdi dosya üzerinde {if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}<a href="{$file->getLink()}#comments/comment{@$commentID}/response{@$responseID}" class="filebaseFileLink" data-object-id="{@$file->fileID}">{$file->getTitle()}</a>.]]></item>
+		<item name="filebase.file.recentActivity.likedFile"><![CDATA[<span title="{$reactionType->getTitle()}" class="jsTooltip">{@$reactionType->renderIcon()}</span> tepki verdi dosya {if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}<a href="{$file->getLink()}" class="filebaseFileLink" data-object-id="{@$file->fileID}">{$file->getTitle()}</a>.]]></item>
+		<item name="filebase.file.recentActivity.likedReview"><![CDATA[<span title="{$reactionType->getTitle()}" class="jsTooltip">{@$reactionType->renderIcon()}</span> tepki verdi inceleme <a href="{$review->getLink()}">{$review->getTitle()}</a> dosya için {if $review->getViewableFile()->hasLabels()}<ul class="labelList">{foreach from=$review->getViewableFile()->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}{anchor object=$review->getViewableFile() class='filebaseFileLink'}.]]></item>
+		<item name="filebase.file.recentActivity.version"><![CDATA[Ekledi {if $version->versionNumber}versiyon {$version->versionNumber}{else} yeni bir versiyon{/if} dosya {if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}{anchor object=$version->getFile() class='filebaseFileLink'}.]]></item>
+		<item name="filebase.file.searchFiles"><![CDATA[Dosyaları Ara]]></item>
+		<item name="filebase.file.size"><![CDATA[Dosya Boyutu]]></item>
+		<item name="filebase.file.subscribed"><![CDATA[Takip Edilen Dosya]]></item>
+		<item name="filebase.file.teaser"><![CDATA[Kısa Tanıtım]]></item>
+		<item name="filebase.file.teaser.description"><![CDATA[Dosyanızın kısa bir tanımını girin, en fazla {#FILEBASE_MAX_TEASER_LENGTH} karakter olabilir.]]></item>
+		<item name="filebase.file.time"><![CDATA[Yükleme Zamanı]]></item>
+		<item name="filebase.file.topFiles"><![CDATA[En Çok Tepki Alan Dosyalar]]></item>
+		<item name="filebase.file.unreadFiles"><![CDATA[Yeni Dosyalar]]></item>
+		<item name="filebase.file.upload"><![CDATA[Dosya Yükle]]></item>
+		<item name="filebase.file.upload.confirmOverwrite"><![CDATA[Zaten bir dosya yüklediniz, devam ederseniz mevcut olanı üzerine yazacaktır.]]></item>
+		<item name="filebase.file.upload.error.invalidExtension"><![CDATA[Dosya uzantısı geçersiz.]]></item>
+		<item name="filebase.file.upload.error.quotaExceeded"><![CDATA[Depolama sınırını aştınız ve yeni dosyalar yükleyemezsiniz.]]></item>
+		<item name="filebase.file.upload.error.tooLarge"><![CDATA[Dosya çok büyük.]]></item>
+		<item name="filebase.file.upload.error.uploadFailed"><![CDATA[Yükleme sırasında bilinmeyen bir hata oluştu.]]></item>
+		<item name="filebase.file.upload.limits"><![CDATA[Maksimum dosya boyutu: {@$__wcf->session->getPermission('user.filebase.maxFileSize')|filesize}<br>
+İzin verilen dosya uzantıları: {', '|implode:$allowedFileExtensions}]]></item>
+		<item name="filebase.file.userFileCounter"><![CDATA[{#$activeAuthor->filebaseFiles} dosya{if $activeAuthor->filebaseFiles != 1}lar{/if}]]></item>
+		<item name="filebase.file.userFiles"><![CDATA[{$user->username} tarafından yüklenen dosyalar]]></item>
+		<item name="filebase.file.version"><![CDATA[Versiyon]]></item>
+		<item name="filebase.file.version.add"><![CDATA[Versiyon Ekle]]></item>
+		<item name="filebase.file.version.confirmDelete"><![CDATA[Bu versiyonu gerçekten silmek istiyor musunuz?]]></item>
+		<item name="filebase.file.version.confirmTrash"><![CDATA[Bu versiyonu gerçekten çöp kutusuna taşımak istiyor musunuz?]]></item>
+		<item name="filebase.file.version.confirmTrash.reason"><![CDATA[Sebep (isteğe bağlı)]]></item>
+		<item name="filebase.file.version.deleted"><![CDATA[Bu versiyon {if $version->userID == $version->getLogEntry()->userID}kendisi tarafından{else}<a href="{link controller='User' id=$version->getLogEntry()->userID title=$version->getLogEntry()->username}{/link}" class="userLink" data-object-id="{@$version->getLogEntry()->userID}">{$version->getLogEntry()->username}</a> tarafından{/if} silindi{if $version->getLogEntry()->reason}: {$version->getLogEntry()->reason}{/if} ({@$version->getLogEntry()->time|time}).]]></item>
+		<item name="filebase.file.version.description"><![CDATA[Açıklama]]></item>
+		<item name="filebase.file.version.edit"><![CDATA[Versiyonu Düzenle]]></item>
+		<item name="filebase.file.version.edit.delete"><![CDATA[Sil]]></item>
+		<item name="filebase.file.version.edit.disable"><![CDATA[Devre Dışı Bırak]]></item>
+		<item name="filebase.file.version.edit.enable"><![CDATA[Onayla]]></item>
+		<item name="filebase.file.version.edit.restore"><![CDATA[Geri Yükle]]></item>
+		<item name="filebase.file.version.edit.trash"><![CDATA[Çöp Kutusuna Taşı]]></item>
+		<item name="filebase.file.version.information"><![CDATA[Detaylar]]></item>
+		<item name="filebase.file.version.isDeleted"><![CDATA[Silinmiş]]></item>
+		<item name="filebase.file.version.isDisabled"><![CDATA[Devre Dışı]]></item>
+		<item name="filebase.file.version.like.notification.message"><![CDATA[<strong>{$author}</strong>, dosyanızın {if $version->versionNumber}versiyon {$version->versionNumber}{else} yeni bir versiyonunu{/if} beğendi <strong>{$file->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="filebase.file.version.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language}, dosyanızın {if $version->versionNumber}versiyon {$version->versionNumber}{else} yeni bir versiyonunu{/if} beğendi <strong>{$file->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="filebase.file.version.like.notification.title"><![CDATA[Dosyanızın Bir Versiyonuna Tepki]]></item>
+		<item name="filebase.file.version.like.notification.title.stacked"><![CDATA[{#$count} kullanıcı dosyanızın bir versiyonuna tepki verdi]]></item>
+		<item name="filebase.file.version.moderation.disabledVersion"><![CDATA[Bu versiyon, bir moderatör tarafından onaylanana kadar diğer kullanıcılar tarafından erişilemez olacaktır.]]></item>
+		<item name="filebase.file.version.more"><![CDATA[{literal}{if $count == 1}Bir önceki dosya{else}{#$count} önceki dosya{/if}{/literal}]]></item>
+		<item name="filebase.file.version.notification.mail.html"><![CDATA[<p><strong>{$author}</strong>, <a href="{$file->getLink()}">{$file->getTitle()}</a> dosyasına {if $version->versionNumber}“{$version->versionNumber}” versiyonunu{else} yeni bir versiyon ekledi{/if}:</p>]]></item>
+		<item name="filebase.file.version.notification.mail.plaintext"><![CDATA[{@$author}, “{@$file->getTitle()}” dosyasına {if $version->versionNumber}“{@$version->versionNumber}” versiyonunu{else} yeni bir versiyon ekledi{/if} [URL:{@$file->getLink()}]:]]></item>
+		<item name="filebase.file.version.notification.message"><![CDATA[<strong>{$author}</strong>, dosyanıza {if $version->versionNumber}versiyon {$version->versionNumber}{else} yeni bir versiyon{/if} ekledi <strong>{$version->getFile()->getTitle()}</strong>.]]></item>
+		<item name="filebase.file.version.notification.moderation.enable.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if}, dosyanızın bir versiyonunu onayladı <strong>{$version->getFile()->getTitle()}</strong>.]]></item>
+		<item name="filebase.file.version.notification.moderation.enable.notification.title"><![CDATA[Dosyanızın Bir Versiyonu Onaylandı]]></item>
+		<item name="filebase.file.version.notification.moderation.trash.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if}, dosyanızın bir versiyonunu çöpe attı <strong>{$version->getFile()->getTitle()}</strong>{if !$userNotificationObject->getDecoratedObject()->__get('reason')|empty} sebep “{$userNotificationObject->getDecoratedObject()->reason|truncate:255:'…'}”{/if}.]]></item>
+		<item name="filebase.file.version.notification.moderation.trash.notification.title"><![CDATA[Dosyanızın Bir Versiyonu Çöpe Atıldı]]></item>
+		<item name="filebase.file.version.notification.title"><![CDATA[Yeni Dosya Versiyonu]]></item>
+		<item name="filebase.file.version.upload"><![CDATA[Versiyon Yükle]]></item>
+		<item name="filebase.file.version.versionDownloads"><![CDATA[{@$version->downloads|shortUnit} İndirme{if $version->downloads != 1}ler{/if}]]></item>
+		<item name="filebase.file.versionNumber"><![CDATA[Versiyon Numarası]]></item>
+		<item name="filebase.file.versionNumber.error.notUnique"><![CDATA[Bu versiyon numarası zaten kullanımda.]]></item>
+		<item name="filebase.file.versions"><![CDATA[Versiyonlar]]></item>
+		<item name="filebase.file.watchedFiles"><![CDATA[Takip Edilen Dosyalar]]></item>
+		<item name="filebase.file.watchedFiles.stopWatchingAll"><![CDATA[Tüm dosyaların takibini bırak]]></item>
+		<item name="filebase.file.watchedFiles.stopWatchingAll.confirmMessage"><![CDATA[Tüm dosyaların takibini gerçekten bırakmak istiyor musunuz?]]></item>
+		<item name="filebase.file.watchedFiles.stopWatchingMarked"><![CDATA[{literal}İşaretlenmiş dosyanın takibini bırak{if $count > 1}lar{/if}{if $count > 1} ({#$count}){/if}{/literal}]]></item>
+		<item name="filebase.file.watchedFiles.stopWatchingMarked.confirmMessage"><![CDATA[İşaretlenmiş tüm dosyaların takibini gerçekten bırakmak istiyor musunuz?]]></item>
+		<item name="filebase.file.website"><![CDATA[Web Sitesi]]></item>
+		<item name="filebase.file.website.description"><![CDATA[İsteğe bağlı: Bu dosya ile ilgili daha fazla detaya sahip olan bir web sitesi (URL).]]></item>
+		<item name="filebase.file.website.error.invalid"><![CDATA[Girilen bağlantı geçersiz.]]></item>
+	</category>
+	<category name="filebase.file.log">
+		<item name="filebase.file.log"><![CDATA[Günlük]]></item>
+		<item name="filebase.file.log.file.delete"><![CDATA[Dosyayı sildi.]]></item>
+		<item name="filebase.file.log.file.disable"><![CDATA[Dosyayı devre dışı bıraktı.]]></item>
+		<item name="filebase.file.log.file.edit"><![CDATA[Dosyayı düzenledi.]]></item>
+		<item name="filebase.file.log.file.enable"><![CDATA[Dosyayı onayladı.]]></item>
+		<item name="filebase.file.log.file.restore"><![CDATA[Dosyayı geri yükledi.]]></item>
+		<item name="filebase.file.log.file.setLabel"><![CDATA[{if $additionalData[label]|empty}Etiketi Kaldırdı <span class="badge label{if $additionalData[oldLabel]->cssClassName} {$additionalData[oldLabel]->cssClassName}{/if}">{$additionalData[oldLabel]->getTitle()}</span>{elseif $additionalData[oldLabel]|empty}Etiket Ekledi <span class="badge label{if $additionalData[label]->cssClassName} {$additionalData[label]->cssClassName}{/if}">{$additionalData[label]->getTitle()}</span>{else}Etiketi <span class="badge label{if $additionalData[oldLabel]->cssClassName} {$additionalData[oldLabel]->cssClassName}{/if}">{$additionalData[oldLabel]->getTitle()}</span> olarak ayarladı <span class="badge label{if $additionalData[label]->cssClassName} {$additionalData[label]->cssClassName}{/if}">{$additionalData[label]->getTitle()}</span>{/if}]]></item>
+		<item name="filebase.file.log.file.trash"><![CDATA[Dosyayı çöp kutusuna taşıdı{if $additionalData[reason]}: {$additionalData[reason]} {/if}.]]></item>
+		<item name="filebase.file.log.file.trash.summary"><![CDATA[Dosya {$username} tarafından silindi{if $additionalData[reason]} şu sebep için: {$additionalData[reason]}{/if}. ({@$time|time}).]]></item>
+		<item name="filebase.file.log.file.version.delete"><![CDATA[Versiyonu sildi.]]></item>
+		<item name="filebase.file.log.file.version.disable"><![CDATA[Versiyonu devre dışı bıraktı{if $version->versionNumber} {$version->versionNumber}{/if}.]]></item>
+		<item name="filebase.file.log.file.version.enable"><![CDATA[Versiyonu onayladı{if $version->versionNumber} {$version->versionNumber}{/if}.]]></item>
+		<item name="filebase.file.log.file.version.restore"><![CDATA[Versiyonu geri yükledi{if $version->versionNumber} {$version->versionNumber}{/if}.]]></item>
+		<item name="filebase.file.log.file.version.trash"><![CDATA[Versiyonu çöp kutusuna taşıdı{if $version->versionNumber} {$version->versionNumber}{/if} {if $additionalData[reason]}: {$additionalData[reason]} {/if}.]]></item>
+		<item name="filebase.file.log.noEntries"><![CDATA[Bu dosya için günlük girişi bulunmamaktadır.]]></item>
+	</category>
+	<category name="filebase.file.review">
+		<item name="filebase.file.review"><![CDATA[İnceleme]]></item>
+		<item name="filebase.file.review.add"><![CDATA[İnceleme Oluştur]]></item>
+		<item name="filebase.file.review.allVersions"><![CDATA[Tüm Versiyonlar]]></item>
+		<item name="filebase.file.review.alreadyReviewed"><![CDATA[Bu dosyayı zaten incelediniz.]]></item>
+		<item name="filebase.file.review.delete.confirmMessage"><![CDATA[Bu incelemeyi gerçekten silmek istiyor musunuz?]]></item>
+		<item name="filebase.file.review.edit"><![CDATA[İncelemeyi Düzenle]]></item>
+		<item name="filebase.file.review.ipAddress"><![CDATA[IP: {$review->getIpAddress()}]]></item>
+		<item name="filebase.file.review.ipAddress.author"><![CDATA[{$review->username} için IP Adresi]]></item>
+		<item name="filebase.file.review.ipAddress.hostname"><![CDATA[Ana Bilgisayar Adı]]></item>
+		<item name="filebase.file.review.ipAddress.otherUsers"><![CDATA[{$review->getIpAddress()} IP Adresi için Diğer Kullanıcılar]]></item>
+		<item name="filebase.file.review.ipAddress.review"><![CDATA[İnceleme]]></item>
+		<item name="filebase.file.review.ipAddress.title"><![CDATA[IP Adresi]]></item>
+		<item name="filebase.file.review.like.notification.message"><![CDATA[<strong>{$author}</strong>, <strong>{$review->getTitle()}</strong> adlı dosya incelemenize tepki verdi ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="filebase.file.review.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} dosya incelemenize <strong>{$review->getTitle()}</strong> adlı dosya için tepki verdi ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="filebase.file.review.like.notification.title"><![CDATA[Dosya incelemenize tepki]]></item>
+		<item name="filebase.file.review.like.notification.title.stacked"><![CDATA[{#$count} kullanıcı dosya incelemenize tepki verdi]]></item>
+		<item name="filebase.file.review.moderation.info"><![CDATA[Yeni oluşturulan incelemeler, bir moderatör tarafından onaylanana kadar diğerleri tarafından erişilemez durumda olacaktır.]]></item>
+		<item name="filebase.file.review.more"><![CDATA[Daha Fazla İnceleme]]></item>
+		<item name="filebase.file.review.noReview"><![CDATA[Hala bir inceleme yazılmamış.]]></item>
+		<item name="filebase.file.review.noReviewVersion"><![CDATA[Bu versiyon için henüz bir inceleme yazılmamış.]]></item>
+		<item name="filebase.file.review.notification.mail.html"><![CDATA[<p>{if $event->getAuthor()->userID}<a href="{link controller='User' object=$event->getAuthor() isHtmlEmail=true}{/link}">{$event->getAuthor()->username}</a>{else}Bir misafir{/if}, <a href="{link application='filebase' controller='File' object=$event->getUserNotificationObject()->getViewableFile() isHtmlEmail=true}#reviews{/link}">{$event->getUserNotificationObject()->getTitle()}</a> dosyanıza <a href="{link application='filebase' controller='File' object=$event->getUserNotificationObject()->getViewableFile() isHtmlEmail=true}{/link}">{$event->getUserNotificationObject()->getViewableFile()->getTitle()}</a> dosyasına ekledi.]]></item>
+		<item name="filebase.file.review.notification.mail.plaintext"><![CDATA[{if $event->getAuthor()->userID}{@$event->getAuthor()->username} [URL:{link controller='User' object=$event->getAuthor() isEmail=true}{/link}]{else}Bir misafir{/if}, “{@$event->getUserNotificationObject()->getTitle()}” [URL:{link application='filebase' controller='File' object=$event->getUserNotificationObject()->getViewableFile() isEmail=true}#reviews{/link}] dosyanıza “{@$event->getUserNotificationObject()->getViewableFile()->getTitle()}” dosyasına ekledi:]]></item>
+		<item name="filebase.file.review.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir misafir{/if}, <strong>{$review->getTitle()}</strong> adlı incelemenizi <strong>{$review->getViewableFile()->getTitle()}</strong> dosyanıza ekledi.]]></item>
+		<item name="filebase.file.review.notification.title"><![CDATA[Yeni İnceleme]]></item>
+		<item name="filebase.file.review.rating"><![CDATA[{plural value=$rating one='# Yıldız' other='# Yıldız'}{if !$numberOfRatings|empty}; {plural value=$numberOfRatings one='# İnceleme' other='# İnceleme'}{/if}]]></item>
+		<item name="filebase.file.review.recentActivity.title"><![CDATA[<a href="{$review->getLink()}">{$review->getTitle()}</a> adlı incelemeyi dosyaya {if $review->getViewableFile()->hasLabels()}<ul class="labelList">{foreach from=$review->getViewableFile()->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}{anchor object=$review->getViewableFile() class='filebaseFileLink'}. ekledi.]]></item>
+		<item name="filebase.file.review.response.add"><![CDATA[Cevap]]></item>
+		<item name="filebase.file.review.response.delete"><![CDATA[Cevabı Sil]]></item>
+		<item name="filebase.file.review.response.delete.confirmMessage"><![CDATA[Bu cevabı gerçekten silmek istiyor musunuz?]]></item>
+		<item name="filebase.file.review.response.edit"><![CDATA[Cevabı Düzenle]]></item>
+		<item name="filebase.file.review.response.headline"><![CDATA[{user object=$response->getUserProfile()} tarafından ({@$response->time|time}) gelen cevap:]]></item>
+		<item name="filebase.file.review.response.notification.mail.html"><![CDATA[<p>{if $event->getAuthor()->userID}<a href="{link controller='User' object=$event->getAuthor() isHtmlEmail=true}{/link}">{$event->getAuthor()->username}</a>{else}Bir misafir{/if}, <a href="{link application='filebase' controller='File' object=$event->getUserNotificationObject()->getReview()->getViewableFile() isHtmlEmail=true}#reviews{/link}">{$event->getUserNotificationObject()->getReview()->getTitle()}</a> adlı incelemenize cevap verdi.]]></item>
+		<item name="filebase.file.review.response.notification.mail.plaintext"><![CDATA[{if $event->getAuthor()->userID}{@$event->getAuthor()->username} [URL:{link controller='User' object=$event->getAuthor() isEmail=true}{/link}]{else}Bir misafir{/if}, “{@$event->getUserNotificationObject()->getReview()->getTitle()}” [URL:{link application='filebase' controller='File' object=$event->getUserNotificationObject()->getReview()->getViewableFile() isEmail=true}#reviews{/link}] adlı incelemenize cevap verdi:]]></item>
+		<item name="filebase.file.review.response.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir misafir{/if}, <strong>{$response->getReview()->getTitle()}</strong> adlı incelemenize cevap verdi.]]></item>
+		<item name="filebase.file.review.response.notification.title"><![CDATA[İncelemenize yeni bir cevap]]></item>
+		<item name="filebase.file.review.reviewBy"><![CDATA[{user object=$review->getUserProfile()} tarafından inceleme yapıldı]]></item>
+		<item name="filebase.file.review.reviews"><![CDATA[İncelemeler]]></item>
+		<item name="filebase.file.review.version.notUnique"><![CDATA[Bu versiyon için zaten bir inceleme yazdınız.]]></item>
+	</category>
+	<category name="filebase.index">
+		<item name="filebase.index.stats"><![CDATA[İstatistikler]]></item>
+		<item name="filebase.index.stats.detail"><![CDATA[<ul class="inlineList dotSeparated">
+<li>{plural value=$stats[authors] 1='1 Yazar' other='# Yazar'}</li>
+<li>{plural value=$stats[files] 1='1 Dosya' other='# Dosya'}</li>
+<li>Toplam Dosya Boyutu: {$stats[size]|filesize}</li>
+<li>{plural value=$stats[downloads] 1='1 İndirme' other='# İndirme'}{if $stats[downloads] > 0} (Günlük Ortalama {plural value=$stats[downloadsPerDay] 1='1 İndirme' other='# İndirme'}){/if}</li>
+<li>{plural value=$stats[comments] 1='1 Yorum' other='# Yorum'}</li>
+</ul>]]></item>
+	</category>
+	<category name="filebase.license">
+		<item name="filebase.license.license"><![CDATA[Lisans]]></item>
+		<item name="filebase.license.licenseAgreement"><![CDATA[Lisans Sözleşmesi]]></item>
+		<item name="filebase.license.licenseAgreement.confirm"><![CDATA[Yukarıdaki lisans sözleşmesini kabul ediyor musunuz? Ürünü indirmek için kabul etmelisiniz.]]></item>
+		<item name="filebase.license.licenseAgreement.confirm.missingConfirmation"><![CDATA[Lisans sözleşmesini kabul etmek zorundasınız.]]></item>
+		<item name="filebase.license.licenseAgreement.description"><![CDATA[Lütfen lisans sözleşmesini dikkatlice okuyunuz.]]></item>
+		<item name="filebase.license.licenseAgreement.fileLicense"><![CDATA[Lisans Sözleşmesi “{$license->licenseName}”]]></item>
+		<item name="filebase.license.licenseAgreement.inputDescription"><![CDATA[Bu ürün için lisans sözleşmesini sağlayınız.{if FILEBASE_ENABLE_LICENSE_CONFIRMATION} Kullanıcılar ürünü indirmek için bu sözleşmeyi kabul etmelidir.{/if}]]></item>
+		<item name="filebase.license.licenseName"><![CDATA[Lisans Adı]]></item>
+		<item name="filebase.license.licenseText"><![CDATA[Lisans Metni]]></item>
+		<item name="filebase.license.licenseType"><![CDATA[Lisans Türü]]></item>
+		<item name="filebase.license.licenseType.custom"><![CDATA[Kendi lisansınızı sağlayın]]></item>
+		<item name="filebase.license.licenseType.predefined"><![CDATA[Önceden tanımlanmış lisans kullanın]]></item>
+		<item name="filebase.license.licenseType.text"><![CDATA[Kendi lisans metnini sağlayın]]></item>
+		<item name="filebase.license.licenseType.url"><![CDATA[Kendi lisans URL'sini sağlayın]]></item>
+		<item name="filebase.license.licenseURL"><![CDATA[Lisans URL'si]]></item>
+	</category>
+	<category name="wcf.acl.option">
+		<item name="wcf.acl.option.com.woltlab.filebase.category.canDownload"><![CDATA[Dosyaları indirebilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.filebase.category.canUseCategory"><![CDATA[Dosyaları yükleyebilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.filebase.category.canUseCategoryWithoutModeration"><![CDATA[Onay olmaksızın dosyaları yükleyebilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.filebase.category.canViewCategory"><![CDATA[Kategoriye göz atabilir]]></item>
+	</category>
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.boxController.com.woltlab.filebase.categories"><![CDATA[Dosya Kategorileri]]></item>
+		<item name="wcf.acp.box.boxController.com.woltlab.filebase.commentList"><![CDATA[Dosya Yorumları]]></item>
+		<item name="wcf.acp.box.boxController.com.woltlab.filebase.fileList"><![CDATA[Dosya Listesi]]></item>
+		<item name="wcf.acp.box.boxController.com.woltlab.filebase.mostActiveAuthors"><![CDATA[En Aktif Dosya Yazarları]]></item>
+		<item name="wcf.acp.box.boxController.com.woltlab.filebase.tagCloud"><![CDATA[Dosya Etiketleri]]></item>
+	</category>
+	<category name="wcf.acp.content">
+		<item name="wcf.acp.content.provider.com.woltlab.filebase.file"><![CDATA[Dosyalar]]></item>
+		<item name="wcf.acp.content.provider.com.woltlab.filebase.review"><![CDATA[Dosya İncelemeleri]]></item>
+	</category>
+	<category name="wcf.acp.cronjob">
+		<item name="wcf.acp.cronjob.description.cronjob34"><![CDATA[Dosya ve dosya versiyon geri dönüşüm kutularını boşaltır]]></item>
+	</category>
+	<category name="wcf.acp.dataImport">
+		<item name="wcf.acp.dataImport.data.com.woltlab.filebase.category"><![CDATA[Dosya kategorileri]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.filebase.file"><![CDATA[Dosya listesi]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.filebase.file.attachment"><![CDATA[Dosya ekleri]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.filebase.file.comment"><![CDATA[Dosya yorumları]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.filebase.file.comment.response"><![CDATA[Dosya yorumu yanıtları]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.filebase.file.like"><![CDATA[Dosya tepkileri]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.filebase.file.version"><![CDATA[Dosya versiyonları]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.filebase.file.version.attachment"><![CDATA[Dosya versiyon ekleri]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.filebase.file.version.like"><![CDATA[Dosya versiyon tepkileri]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.filebase.file.version.review"><![CDATA[Dosya versiyon incelemeleri]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.filebase.license"><![CDATA[Dosya lisansları]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.admin.filebase.canManageCategory"><![CDATA[Kategorileri yönetebilir]]></item>
+		<item name="wcf.acp.group.option.admin.filebase.canManageFileOption"><![CDATA[Seçenek alanlarını yönetebilir]]></item>
+		<item name="wcf.acp.group.option.admin.filebase.canManageLicense"><![CDATA[Lisansları yönetebilir]]></item>
+		<item name="wcf.acp.group.option.category.admin.filebase"><![CDATA[Filebase]]></item>
+		<item name="wcf.acp.group.option.category.mod.filebase"><![CDATA[Filebase]]></item>
+		<item name="wcf.acp.group.option.category.mod.filebase.review"><![CDATA[İncelemeler]]></item>
+		<item name="wcf.acp.group.option.category.user.filebase"><![CDATA[Filebase]]></item>
+		<item name="wcf.acp.group.option.category.user.filebase.review"><![CDATA[İncelemeler]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canDeleteComment"><![CDATA[Yorumları silebilir]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canDeleteFile"><![CDATA[Dosyaları çöp kutusuna taşıyabilir]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canDeleteFileCompletely"><![CDATA[Dosyaları silebilir]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canDeleteReview"><![CDATA[İncelemeleri silebilir]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canDownloadFileWithoutLicenseConfirmation"><![CDATA[Lisans sözleşmesini kabul etmeden dosyaları indirebilir]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canEditComment"><![CDATA[Yorumları düzenleyebilir]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canEditFile"><![CDATA[Dosyaları düzenleyebilir]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canEditReview"><![CDATA[İncelemeleri düzenleyebilir]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canModerateComment"><![CDATA[Yorumları yönetebilir]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canModerateFile"><![CDATA[Dosyaları yönetebilir]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canModerateReview"><![CDATA[İncelemeleri yönetebilir]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canRestoreFile"><![CDATA[Dosyaları geri yükleyebilir]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canViewDeletedFile"><![CDATA[Silinmiş dosyaları görebilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.allowedAttachmentExtensions"><![CDATA[İzin verilen ek dosya uzantıları]]></item>
+		<item name="wcf.acp.group.option.user.filebase.allowedFileExtensions"><![CDATA[İzin verilen dosya uzantıları]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canAddComment"><![CDATA[Yorum ekleyebilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canAddCommentWithoutModeration"><![CDATA[Onay olmadan yorum ekleyebilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canAddFile"><![CDATA[Dosya yükleyebilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canAddFileWithoutModeration"><![CDATA[Onay olmadan dosya yükleyebilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canAddReview"><![CDATA[İnceleme ekleyebilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canAddReviewWithoutModeration"><![CDATA[Onay olmadan inceleme ekleyebilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canDeleteComment"><![CDATA[Kendi yorumlarını silebilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canDeleteFile"><![CDATA[Kendi dosyalarını çöp kutusuna taşıyabilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canDeleteOwnReview"><![CDATA[Kendi incelemelerini silebilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canDisableCommentFunction"><![CDATA[Kendi dosyalarındaki yorumları devre dışı bırakabilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canDisableReviewFunction"><![CDATA[Kendi dosyalarındaki incelemeleri devre dışı bırakabilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canDownloadAttachment"><![CDATA[Ekleri görebilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canDownloadFile"><![CDATA[Dosyaları indirebilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canEditComment"><![CDATA[Kendi yorumlarını düzenleyebilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canEditFile"><![CDATA[Kendi dosyalarını düzenleyebilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canEditReview"><![CDATA[Kendi incelemelerini düzenleyebilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canReadReview"><![CDATA[İncelemeleri okuyabilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canUploadAttachment"><![CDATA[Ek dosyaları yükleyebilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canViewFile"><![CDATA[Dosyaları görebilir]]></item>
+		<item name="wcf.acp.group.option.user.filebase.maxAttachmentCount"><![CDATA[Her dosya için maksimum ek sayısı]]></item>
+		<item name="wcf.acp.group.option.user.filebase.maxAttachmentSize"><![CDATA[Maksimum ek dosya boyutu]]></item>
+		<item name="wcf.acp.group.option.user.filebase.maxFileSize"><![CDATA[Maksimum dosya boyutu]]></item>
+		<item name="wcf.acp.group.option.user.filebase.maxTextLength"><![CDATA[Maksimum dosya açıklama uzunluğu]]></item>
+		<item name="wcf.acp.group.option.user.filebase.maxVersionTextLength"><![CDATA[Maksimum versiyon açıklama uzunluğu]]></item>
+		<item name="wcf.acp.group.option.user.filebase.quota"><![CDATA[Maksimum dosya sistem kotası]]></item>
+		<item name="wcf.acp.group.option.user.filebase.quota.description"><![CDATA[Dosyalar için izin verilen maksimum disk alanı.]]></item>
+	</category>
+	<category name="wcf.acp.label">
+		<item name="wcf.acp.label.container.com.woltlab.filebase.category"><![CDATA[Filebase]]></item>
+	</category>
+	<category name="wcf.acp.modificationLog">
+		<item name="wcf.acp.modificationLog.com.woltlab.filebase.file.delete"><![CDATA[Dosya silindi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.filebase.file.disable"><![CDATA[Dosya devre dışı bırakıldı]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.filebase.file.edit"><![CDATA[Dosya düzenlendi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.filebase.file.enable"><![CDATA[Dosya onaylandı]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.filebase.file.restore"><![CDATA[Dosya geri yüklendi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.filebase.file.setLabel"><![CDATA[Dosya etiketleri düzenlendi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.filebase.file.trash"><![CDATA[Dosya çöp kutusuna taşındı]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.filebase.version.delete"><![CDATA[Versiyon silindi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.filebase.version.disable"><![CDATA[Versiyon devre dışı bırakıldı]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.filebase.version.enable"><![CDATA[Versiyon onaylandı]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.filebase.version.restore"><![CDATA[Versiyon geri yüklendi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.filebase.version.trash"><![CDATA[Versiyon çöp kutusuna taşındı]]></item>
+	</category>
+	<category name="wcf.acp.notice">
+		<item name="wcf.acp.notice.conditions.filebaseCategory"><![CDATA[Filebase Kategorisi]]></item>
+		<item name="wcf.acp.notice.conditions.filebaseCategory.description"><![CDATA[Aktif kategori, bildirimin gösterilmesi için aşağıdaki koşulları karşılamalıdır.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.dashboard.sidebar.files"><![CDATA[Dosyalar]]></item>
+		<item name="wcf.acp.option.category.filebase"><![CDATA[Filebase]]></item>
+		<item name="wcf.acp.option.category.filebase.files"><![CDATA[Dosyalar]]></item>
+		<item name="wcf.acp.option.category.filebase.general"><![CDATA[Genel]]></item>
+		<item name="wcf.acp.option.category.filebase.index"><![CDATA[Filebase İndeksi]]></item>
+		<item name="wcf.acp.option.category.filebase.license"><![CDATA[Lisanslar]]></item>
+		<item name="wcf.acp.option.category.filebase.stats"><![CDATA[İstatistikler]]></item>
+		<item name="wcf.acp.option.filebase_dashboard_box_files"><![CDATA[Dosya Sayısı]]></item>
+		<item name="wcf.acp.option.filebase_enable_custom_license"><![CDATA[Özel lisansı etkinleştir]]></item>
+		<item name="wcf.acp.option.filebase_enable_custom_license.description"><![CDATA[Kullanıcılar özel bir lisans sözleşmesi sağlayabilir.]]></item>
+		<item name="wcf.acp.option.filebase_enable_file_icon"><![CDATA[Dosya simgesini etkinleştir]]></item>
+		<item name="wcf.acp.option.filebase_enable_file_icon.description"><![CDATA[Kullanıcılar dosyayı temsil etmek için bir simge yükleyebilir.]]></item>
+		<item name="wcf.acp.option.filebase_enable_license"><![CDATA[Lisansları etkinleştir]]></item>
+		<item name="wcf.acp.option.filebase_enable_license.description"><![CDATA[Dosyalar lisans sözleşmesi ile ilişkilendirilmelidir. Kullanıcılar <a href="{link application='filebase' controller='LicenseList'}{/link}">önceden tanımlanmış lisanslar listesinden</a> seçim yapabilir.]]></item>
+		<item name="wcf.acp.option.filebase_enable_license_confirmation"><![CDATA[Kullanıcıların lisans sözleşmesini kabul etmelerini gerektir]]></item>
+		<item name="wcf.acp.option.filebase_enable_license_confirmation.description"><![CDATA[Kullanıcıların dosyaları indirmeden önce lisans sözleşmesini kabul etmeleri gereklidir.]]></item>
+		<item name="wcf.acp.option.filebase_enable_moderation_notification"><![CDATA[Moderasyon bildirimini etkinleştir]]></item>
+		<item name="wcf.acp.option.filebase_enable_multilingualism"><![CDATA[Çokdilli desteği etkinleştir]]></item>
+		<item name="wcf.acp.option.filebase_enable_review"><![CDATA[İncelemeler]]></item>
+		<item name="wcf.acp.option.filebase_enable_version_number"><![CDATA[Dosya versiyon numaralarını etkinleştir]]></item>
+		<item name="wcf.acp.option.filebase_enable_version_number.description"><![CDATA[Kullanıcılar her yüklenen dosya için versiyon numarası belirtmelidir.]]></item>
+		<item name="wcf.acp.option.filebase_file_empty_recycle_bin_cycle"><![CDATA[Çöp Kutusunu Boşalt]]></item>
+		<item name="wcf.acp.option.filebase_file_empty_recycle_bin_cycle.description"><![CDATA[Dosyalar ve dosya versiyonları çöp kutusundan kaç gün içinde kaldırılır. 0 kullanarak devre dışı bırakabilirsiniz.]]></item>
+		<item name="wcf.acp.option.filebase_file_types"><![CDATA[İzin Verilen Dosya Türleri]]></item>
+		<item name="wcf.acp.option.filebase_file_types.description"><![CDATA[Hangi dosya türlerinin izin verildiğini seçebilirsiniz, en az bir tür seçmelisiniz.]]></item>
+		<item name="wcf.acp.option.filebase_file_types.externalURL"><![CDATA[Harici bağlantı]]></item>
+		<item name="wcf.acp.option.filebase_file_types.noFile"><![CDATA[Dosya yok]]></item>
+		<item name="wcf.acp.option.filebase_file_types.upload"><![CDATA[Dosya yükleme]]></item>
+		<item name="wcf.acp.option.filebase_files_per_page"><![CDATA[Sayfa başına dosya]]></item>
+		<item name="wcf.acp.option.filebase_index_enable_stats"><![CDATA[Filebase istatistiklerini göster]]></item>
+		<item name="wcf.acp.option.filebase_max_teaser_length"><![CDATA[Maksimum Teaser Uzunluğu]]></item>
+		<item name="wcf.acp.option.filebase_message_sidebar_enable_user_files"><![CDATA[Yazarın dosya sayısını göster]]></item>
+		<item name="wcf.acp.option.filebase_moderation_notification_show_moderator"><![CDATA[Bildirimler için moderatörü göster]]></item>
+		<item name="wcf.acp.option.filebase_storage"><![CDATA[Dosya Disk Konumu (Tavsiye Edilmez)]]></item>
+		<item name="wcf.acp.option.filebase_storage.description"><![CDATA[Özel dosya disk konumu desteği artık kullanımdan kaldırılmıştır ve ileriki WoltLab Suite™ sürümlerinde kaldırılacaktır.]]></item>
+	</category>
+	<category name="wcf.acp.pip">
+		<item name="wcf.acp.pip.objectType.com.woltlab.filebase.box.fileList.condition.data.title"><![CDATA[Dosya Listesi Kutusu Koşul Verisi]]></item>
+		<item name="wcf.acp.pip.objectType.definitionName.com.woltlab.filebase.box.fileList.condition.description"><![CDATA[Bu nesne türü tanımı, dosyaları listeleyen kutular için mevcut koşulları/ayarları kaydetmek için kullanılır, gösterilecek dosyaları belirlemek için.]]></item>
+	</category>
+	<category name="wcf.acp.rebuildData">
+		<item name="wcf.acp.rebuildData.filebase_system_worker_FileVersionRebuildDataWorker"><![CDATA[Dosya Versiyonlarını Yeniden Oluştur]]></item>
+		<item name="wcf.acp.rebuildData.filebase_system_worker_FileVersionRebuildDataWorker.description"><![CDATA[Dosya versiyon sayıcılarını yeniden oluşturur.]]></item>
+		<item name="wcf.acp.rebuildData.filebase_system_worker_FilebaseRebuildDataWorker"><![CDATA[Dosyaları Yeniden Oluştur]]></item>
+		<item name="wcf.acp.rebuildData.filebase_system_worker_FilebaseRebuildDataWorker.description"><![CDATA[Arama dizinini yeniden oluşturur ve etkinlik puanlarını yeniden hesaplar.]]></item>
+		<item name="wcf.acp.rebuildData.filebase_system_worker_FilebaseReviewRebuildDataWorker"><![CDATA[Dosya İncelemelerini Yeniden Oluştur]]></item>
+		<item name="wcf.acp.rebuildData.filebase_system_worker_FilebaseReviewRebuildDataWorker.description"><![CDATA[İncelemeleri yeniden oluşturur ve etkinlik puanlarını yeniden hesaplar.]]></item>
+	</category>
+	<category name="wcf.acp.sitemap">
+		<item name="wcf.acp.sitemap.objectType.com.woltlab.filebase.sitemap.object.category"><![CDATA[Filebase Kategorileri]]></item>
+		<item name="wcf.acp.sitemap.objectType.com.woltlab.filebase.sitemap.object.file"><![CDATA[Dosyalar]]></item>
+	</category>
+	<category name="wcf.acp.stat">
+		<item name="wcf.acp.stat.category.com.woltlab.filebase"><![CDATA[WoltLab Suite Filebase]]></item>
+		<item name="wcf.acp.stat.com.woltlab.filebase.file"><![CDATA[Dosyalar]]></item>
+		<item name="wcf.acp.stat.com.woltlab.filebase.file.diskUsage"><![CDATA[Toplam Dosya Boyutu (MB)]]></item>
+		<item name="wcf.acp.stat.com.woltlab.filebase.fileComment"><![CDATA[Dosya Yorumları]]></item>
+		<item name="wcf.acp.stat.com.woltlab.filebase.version"><![CDATA[Dosya Versiyonları]]></item>
+	</category>
+	<category name="wcf.clipboard">
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.assignLabel"><![CDATA[Etiket Ata ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.delete"><![CDATA[Sil ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.delete.confirmMessage"><![CDATA[İşaretli dosyayı gerçekten silmek istiyor musunuz?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.disable"><![CDATA[Pasifleştir ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.enable"><![CDATA[Onayla ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.restore"><![CDATA[Geri Yükle ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.trash"><![CDATA[Çöp Kutusuna Taşı ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.trash.confirmMessage"><![CDATA[İşaretli dosyayı gerçekten çöp kutusuna taşımak istiyor musunuz?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.version.delete.confirmMessage"><![CDATA[İşaretli versiyonları gerçekten silmek istiyor musunuz?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.version.trash.confirmMessage"><![CDATA[İşaretli versiyonları gerçekten çöp kutusuna taşımak istiyor musunuz?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.version.delete"><![CDATA[Sil ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.version.disable"><![CDATA[Pasifleştir ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.version.enable"><![CDATA[Onayla ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.version.restore"><![CDATA[Geri Yükle ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.version.trash"><![CDATA[Çöp Kutusuna Taşı ({#$count})]]></item>
+		<item name="wcf.clipboard.label.com.woltlab.filebase.file.marked"><![CDATA[{if $count == 1}Bir Dosya{else}{#$count} Dosya{/if}]]></item>
+		<item name="wcf.clipboard.label.com.woltlab.filebase.version.marked"><![CDATA[{if $count == 1}Bir Versiyon{else}{#$count} Versiyon{/if}]]></item>
+	</category>
+	<category name="wcf.like">
+	    <item name="wcf.like.objectType.com.woltlab.filebase.likeableFile"><![CDATA[Dosya]]></item>
+	    <item name="wcf.like.objectType.com.woltlab.filebase.likeableFileReview"><![CDATA[Dosya İncelemesi]]></item>
+	    <item name="wcf.like.objectType.com.woltlab.filebase.likeableFileVersion"><![CDATA[Dosya Sürümü]]></item>
+	    <item name="wcf.like.title.com.woltlab.filebase.fileComment"><![CDATA[{if $commentAuthor}{{user object=$commentAuthor}}{else}Bir misafir{/if} tarafından dosya {if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}<a href="{$comment->getLink()}" class="filebaseFileLink" data-object-id="{@$file->fileID}">{$file->getTitle()}</a> üzerindeki yoruma {@$reaction->render()} ile tepki verildi.]]></item>
+	    <item name="wcf.like.title.com.woltlab.filebase.fileComment.response"><![CDATA[{if $responseAuthor}{{user object=$responseAuthor}}{else}Bir misafir{/if} tarafından dosya {if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}<a href="{$response->getLink()}" class="filebaseFileLink" data-object-id="{@$file->fileID}">{$file->getTitle()}</a> üzerindeki yoruma verilen yanıta {@$reaction->render()} ile tepki verildi.]]></item>
+	    <item name="wcf.like.title.com.woltlab.filebase.likeableFile"><![CDATA[{@$reaction->render()} ile dosyaya tepki verildi {if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}{anchor object=$file class='filebaseFileLink'}.]]></item>
+	    <item name="wcf.like.title.com.woltlab.filebase.likeableFileVersion"><![CDATA[{@$reaction->render()} ile dosyanın {if $version->versionNumber}versiyonu {$version->versionNumber}{else}versiyonu{/if} üzerine tepki verildi {if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}{anchor object=$version->getFile() class='filebaseFileLink'}.]]></item>
+	    <item name="wcf.like.title.com.woltlab.filebase.likeableReview"><![CDATA[{@$reaction->render()} ile <a href="{$review->getLink()}">{$review->getTitle()}</a> incelemesi için dosyaya tepki verildi {if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}{anchor object=$version->getFile() class='filebaseFileLink'}.]]></item>
+	</category>
+	<category name="wcf.menu">
+		<item name="wcf.menu.item.com.woltlab.filebase.FileList"><![CDATA[Filebase]]></item>
+		<item name="wcf.menu.item.com.woltlab.filebase.MyFileList"><![CDATA[Dosyalarım]]></item>
+		<item name="wcf.menu.item.com.woltlab.filebase.UnreadFileList"><![CDATA[Yeni Dosyalar]]></item>
+		<item name="wcf.menu.item.com.woltlab.filebase.WatchedFileList"><![CDATA[Takip Edilen Dosyalar]]></item>
+	</category>
+	<category name="wcf.moderation">
+		<item name="wcf.moderation.deletedContent.com.woltlab.filebase.file"><![CDATA[Silinmiş Dosyalar]]></item>
+		<item name="wcf.moderation.deletedContent.com.woltlab.filebase.version"><![CDATA[Silinmiş Dosya Versiyonları]]></item>
+		<item name="wcf.moderation.deletedContent.objectType.com.woltlab.filebase.file"><![CDATA[Dosyalar]]></item>
+		<item name="wcf.moderation.deletedContent.objectType.com.woltlab.filebase.version"><![CDATA[Dosya Versiyonları]]></item>
+		<item name="wcf.moderation.type.com.woltlab.filebase.file"><![CDATA[Dosya]]></item>
+		<item name="wcf.moderation.type.com.woltlab.filebase.review"><![CDATA[Dosya İncelemesi]]></item>
+		<item name="wcf.moderation.type.com.woltlab.filebase.version"><![CDATA[Dosya Versiyonu]]></item>
+	</category>
+	<category name="wcf.page">
+		<item name="wcf.page.onlineLocation.com.woltlab.filebase.CategoryFileList"><![CDATA[Dosya kategorisi <a href="{$category->getLink()}">{$category->getTitle()}</a>]]></item>
+		<item name="wcf.page.onlineLocation.com.woltlab.filebase.File"><![CDATA[Dosya {anchor object=$file class='filebaseFileLink'}]]></item>
+		<item name="wcf.page.onlineLocation.com.woltlab.filebase.UserFileList"><![CDATA[<a href="{link controller='UserFileList' application='filebase' object=$user}{/link}">{$user->username} tarafından yüklenen dosyalar</a>]]></item>
+	</category>
+	<category name="wcf.search">
+		<item name="wcf.search.object.com.woltlab.filebase.file"><![CDATA[Dosya]]></item>
+		<item name="wcf.search.type.com.woltlab.filebase.file"><![CDATA[Dosyalar]]></item>
+	</category>
+	<category name="wcf.tagging">
+		<item name="wcf.tagging.combinedTaggedObjects.com.woltlab.filebase.file"><![CDATA[Etiketlenmiş Dosyalar]]></item>
+		<item name="wcf.tagging.objectType.com.woltlab.filebase.file"><![CDATA[Dosyalar]]></item>
+		<item name="wcf.tagging.taggedObjects.com.woltlab.filebase.file"><![CDATA[“{$tag->name}” etiketi ile etiketlenmiş dosyalar]]></item>
+	</category>
+	<category name="wcf.user">
+		<item name="wcf.user.activityPoint.objectType.com.woltlab.filebase.activityPointEvent.file"><![CDATA[Dosyalar]]></item>
+		<item name="wcf.user.activityPoint.objectType.com.woltlab.filebase.activityPointEvent.review"><![CDATA[Dosya İncelemeleri]]></item>
+		<item name="wcf.user.boxList.description.filebaseFiles"><![CDATA[{#$boxUser->filebaseFiles} Dosya{if $boxUser->filebaseFiles != 1}s{/if}]]></item>
+		<item name="wcf.user.sortField.filebaseFiles"><![CDATA[Dosyalar]]></item>
+	</category>
+	<category name="wcf.user.condition">
+		<item name="wcf.user.condition.filebaseFiles"><![CDATA[Dosyalar]]></item>
+		<item name="wcf.user.condition.filebaseReviews"><![CDATA[Dosya İncelemeleri]]></item>
+	</category>
+	<category name="wcf.user.notification">
+		<item name="wcf.user.notification.com.woltlab.filebase"><![CDATA[Filebase]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.file.file"><![CDATA[Takip edilen kategorilerde yeni dosyalar hakkında beni bilgilendir]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.fileComment.like.notification.like"><![CDATA[Yorumlarıma biri tepki gösterdiğinde beni bilgilendir]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.fileComment.notification.comment"><![CDATA[Dosyalarımdaki yeni yorumlar hakkında beni bilgilendir]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.fileComment.response.like.notification.like"><![CDATA[Yorum yanıtlarıma biri tepki gösterdiğinde beni bilgilendir]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.fileComment.response.notification.commentResponse"><![CDATA[Yorumlarıma yeni yanıtlar hakkında beni bilgilendir]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.fileComment.response.notification.commentResponseOwner"><![CDATA[Dosyalarımdaki yorumlara yeni yanıtlar hakkında beni bilgilendir]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.likeableFile.notification.like"><![CDATA[Dosyalarıma biri tepki gösterdiğinde beni bilgilendir]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.likeableFileReview.notification.like"><![CDATA[İncelemelerime biri tepki gösterdiğinde beni bilgilendir]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.likeableFileVersion.notification.like"><![CDATA[Dosyalarımın versiyonlarına biri tepki gösterdiğinde beni bilgilendir]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.moderation.file.moderation"><![CDATA[Dosyam moderasyona düştüğünde beni bilgilendir]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.moderation.version.moderation"><![CDATA[Dosyamın versiyonu moderasyona düştüğünde beni bilgilendir]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.review.response.response"><![CDATA[İncelemelerime yeni yanıtlar hakkında beni bilgilendir]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.review.review"><![CDATA[Dosyalarıma yeni incelemeler hakkında beni bilgilendir]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.version.version"><![CDATA[Takip edilen dosyaların yeni versiyonları hakkında beni bilgilendir]]></item>
+	</category>
+	<category name="wcf.user.recentActivity">
+		<item name="wcf.user.recentActivity.com.woltlab.filebase.fileComment.recentActivityEvent"><![CDATA[Yorum (Dosya)]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.filebase.fileComment.response.recentActivityEvent"><![CDATA[Yanıt (Dosya)]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.filebase.likeableFile.recentActivityEvent"><![CDATA[Tepki (Dosya)]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.filebase.likeableFileReview.recentActivityEvent"><![CDATA[Tepki (Dosya İncelemesi)]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.filebase.recentActivityEvent.file"><![CDATA[Dosya]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.filebase.recentActivityEvent.version"><![CDATA[Dosya Versiyonu]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.filebase.review"><![CDATA[Dosya İncelemesi]]></item>
+	</category>
+	<category name="shadow.invalid.page">
+		<item name="shadow.invalid.page.com.woltlab.filebase.FileAdd.title"><![CDATA[Dosya Ekle]]></item>
+		<item name="shadow.invalid.page.com.woltlab.filebase.FileEdit.title"><![CDATA[Dosya Düzenle]]></item>
+		<item name="shadow.invalid.page.com.woltlab.filebase.FileLicense.title"><![CDATA[Lisans Sözleşmesi]]></item>
+		<item name="shadow.invalid.page.com.woltlab.filebase.FileList.title"><![CDATA[Filebase]]></item>
+		<item name="shadow.invalid.page.com.woltlab.filebase.FileLog.title"><![CDATA[Dosya Günlüğü]]></item>
+		<item name="shadow.invalid.page.com.woltlab.filebase.FileReviewAdd.title"><![CDATA[İnceleme Ekle]]></item>
+		<item name="shadow.invalid.page.com.woltlab.filebase.FileReviewEdit.title"><![CDATA[İncelemeyi Düzenle]]></item>
+		<item name="shadow.invalid.page.com.woltlab.filebase.FileReviewResponseAdd.title"><![CDATA[Yanıtla]]></item>
+		<item name="shadow.invalid.page.com.woltlab.filebase.FileReviewResponseEdit.title"><![CDATA[Yanıtı Düzenle]]></item>
+		<item name="shadow.invalid.page.com.woltlab.filebase.License.title"><![CDATA[Lisans Sözleşmesi]]></item>
+		<item name="shadow.invalid.page.com.woltlab.filebase.MyFileList.title"><![CDATA[Benim Dosyalarım]]></item>
+		<item name="shadow.invalid.page.com.woltlab.filebase.UnreadFileList.title"><![CDATA[Yeni Dosyalar]]></item>
+		<item name="shadow.invalid.page.com.woltlab.filebase.VersionAdd.title"><![CDATA[Versiyon Ekle]]></item>
+		<item name="shadow.invalid.page.com.woltlab.filebase.VersionEdit.title"><![CDATA[Versiyon Düzenle]]></item>
+		<item name="shadow.invalid.page.com.woltlab.filebase.WatchedFileList.title"><![CDATA[Takip Edilen Dosyalar]]></item>
+	</category>
+	<category name="shadow.invalid.box">
+		<item name="shadow.invalid.box.com.woltlab.filebase.Categories.title"><![CDATA[Kategoriler]]></item>
+		<item name="shadow.invalid.box.com.woltlab.filebase.LatestComments.title"><![CDATA[En Son Yorumlar]]></item>
+		<item name="shadow.invalid.box.com.woltlab.filebase.MostActiveAuthors.title"><![CDATA[En Aktif Yazarlar]]></item>
+		<item name="shadow.invalid.box.com.woltlab.filebase.TagCloud.title"><![CDATA[Etiket Bulutu]]></item>
+	</category>
+</language>
