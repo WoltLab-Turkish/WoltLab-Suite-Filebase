@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="tr" languagename="Türkçe" countrycode="tr">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/language.xsd" languagecode="tr" languagename="Türkçe" countrycode="tr">
 	<category name="filebase.acp.file">
 		<item name="filebase.acp.file.option.add"><![CDATA[Seçenek Alanı Ekle]]></item>
-		<item name="filebase.acp.file.option.categoryIDs"><![CDATA[Kategoriler]]></item>
 		<item name="filebase.acp.file.option.categoryIDs.description"><![CDATA[Seçenek alanı yalnızca seçilen kategorilerdeki dosyalar için geçerlidir. Eğer bir kategori seçilmezse, seçenek alanı tüm kategorilerde geçerli olur.]]></item>
 		<item name="filebase.acp.file.option.defaultValue"><![CDATA[Varsayılan Değer]]></item>
 		<item name="filebase.acp.file.option.defaultValue.description"><![CDATA[İlk düzenleme sırasında önerilen varsayılan seçenek değeri.]]></item>
@@ -53,7 +52,6 @@
 		<item name="filebase.acp.menu.link.filebase.license.list"><![CDATA[Lisanslar]]></item>
 	</category>
 	<category name="filebase.category">
-		<item name="filebase.category.categories"><![CDATA[Kategoriler]]></item>
 		<item name="filebase.category.delete.sure"><![CDATA[Bu kategoriyi gerçekten silmek istiyor musunuz? Bu kategorinin tüm alt kategorileri, bu kategorinin üst kategorisine taşınacak. Yalnızca bu kategoride bulunan dosyalar ve bu kategori için geçerli olan dosya seçenekleri silinecek.]]></item>
 	</category>
 	<category name="filebase.file">
@@ -68,7 +66,6 @@
 		<item name="filebase.file.button.markAll"><![CDATA[Hepsini İşaretle]]></item>
 		<item name="filebase.file.categorizedFiles"><![CDATA["{$category->getTitle()}” kategorisindeki dosyalar]]></item>
 		<item name="filebase.file.categorizedUnreadFiles"><![CDATA["{$category->getTitle()}” kategorisindeki yeni dosyalar]]></item>
-		<item name="filebase.file.category"><![CDATA[Kategori]]></item>
 		<item name="filebase.file.category.moderation.info"><![CDATA[Bu kategorideki yeni yüklenen dosyalar, bir moderatör tarafından onaylanana kadar diğer kullanıcılar tarafından erişilemez olacaktır.]]></item>
 		<item name="filebase.file.comment"><![CDATA[Dosya Yorumu]]></item>
 		<item name="filebase.file.comment.like.notification.message"><![CDATA[<strong>{$author}</strong> adlı kullanıcı <strong>{$file->getTitle()}</strong> dosyanızdaki yorumunuza tepki verdi ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
@@ -171,12 +168,12 @@
 		<item name="filebase.file.options"><![CDATA[Ek Bilgiler]]></item>
 		<item name="filebase.file.overview"><![CDATA[Genel Bakış]]></item>
 		<item name="filebase.file.random"><![CDATA[Rastgele]]></item>
-		<item name="filebase.file.recentActivity.file"><![CDATA[{if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if} {anchor object=$file class='filebaseFileLink'} adlı dosyayı oluşturdu.]]></item>
-		<item name="filebase.file.recentActivity.fileComment"><![CDATA[{if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}<a href="{$file->getLink()}#comments/comment{@$commentID}" class="filebaseFileLink" data-object-id="{@$file->fileID}">{$file->getTitle()}</a> adlı dosyaya cevap verdi.]]></item>
-		<item name="filebase.file.recentActivity.fileCommentResponse"><![CDATA[{if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}<a href="{$file->getLink()}#comments/comment{@$commentID}/response{@$responseID}" class="filebaseFileLink" data-object-id="{@$file->fileID}">{$file->getTitle()}</a> adlı dosyadaki {user object=$commentAuthor}’in yorumuna yanıt verdi.]]></item>
-		<item name="filebase.file.recentActivity.likedFile"><![CDATA[{if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}<a href="{$file->getLink()}" class="filebaseFileLink" data-object-id="{@$file->fileID}">{$file->getTitle()}</a> adlı dosyaya <span title="{$reactionType->getTitle()}" class="jsTooltip">{@$reactionType->renderIcon()}</span> ile tepki verdi.]]></item>
-		<item name="filebase.file.recentActivity.likedReview"><![CDATA[{if $review->getViewableFile()->hasLabels()}<ul class="labelList">{foreach from=$review->getViewableFile()->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}{anchor object=$review->getViewableFile() class='filebaseFileLink'} adlı dosyadaki <a href="{$review->getLink()}">{$review->getTitle()}</a> adındaki değerlendirmeye <span title="{$reactionType->getTitle()}" class="jsTooltip">{@$reactionType->renderIcon()}</span> ile tepki verdi.]]></item>
-		<item name="filebase.file.recentActivity.version"><![CDATA[{if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}{anchor object=$version->getFile() class='filebaseFileLink'} adlı dosyay {if $version->versionNumber}versiyon {$version->versionNumber}{else} versiyona{/if} ekledi.]]></item>
+		<item name="filebase.file.recentActivity.file"><![CDATA[<strong>{$author}</strong>, {if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if} <strong>{$file->getTitle()}</strong> adlı dosyayı oluşturdu.]]></item>
+		<item name="filebase.file.recentActivity.fileComment"><![CDATA[<strong>{$author}</strong>, {if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$file->getTitle()}</strong> adlı dosyaya cevap verdi.]]></item>
+		<item name="filebase.file.recentActivity.fileCommentResponse"><![CDATA[<strong>{$author}</strong>, {if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$file->getTitle()}</strong> adlı dosyadaki <strong>{$commentAuthor}</strong>’in yorumuna yanıt verdi.]]></item>
+		<item name="filebase.file.recentActivity.likedFile"><![CDATA[<strong>{$author}</strong>, {if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$file->getTitle()}</strong> adlı dosyaya <span title="{$reactionType->getTitle()}" class="jsTooltip">{unsafe:$reactionType->renderIcon()}</span> ile tepki verdi.]]></item>
+		<item name="filebase.file.recentActivity.likedReview"><![CDATA[<strong>{$author}</strong>, <strong>{$review->getTitle()}</strong> for the file {if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$file->getTitle()}</strong> adlı dosyadaki <span title="{$reactionType->getTitle()}" class="jsTooltip">{unsafe:$reactionType->renderIcon()}</span> ile tepki verdi.]]></item>
+		<item name="filebase.file.recentActivity.version"><![CDATA[<strong>{$author}</strong>, {if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$file->getTitle()}</strong> adlı dosyaya {if $version->versionNumber}versiyon {$version->versionNumber}{else}versiyona{/if} ekledi.]]></item>
 		<item name="filebase.file.searchFiles"><![CDATA[Dosyaları Ara]]></item>
 		<item name="filebase.file.size"><![CDATA[Dosya Boyutu]]></item>
 		<item name="filebase.file.subscribed"><![CDATA[Takip Edilen Dosya]]></item>
@@ -220,11 +217,13 @@
 		<item name="filebase.file.version.notification.mail.html"><![CDATA[<p><strong>{$author}</strong>, <a href="{$file->getLink()}">{$file->getTitle()}</a> dosyasına {if $version->versionNumber}“{$version->versionNumber}” versiyonunu{else} yeni bir versiyon ekledi{/if}:</p>]]></item>
 		<item name="filebase.file.version.notification.mail.plaintext"><![CDATA[{@$author}, “{@$file->getTitle()}” dosyasına {if $version->versionNumber}“{@$version->versionNumber}” versiyonunu{else} yeni bir versiyon ekledi{/if} [URL:{@$file->getLink()}]:]]></item>
 		<item name="filebase.file.version.notification.message"><![CDATA[<strong>{$author}</strong>, dosyanıza {if $version->versionNumber}versiyon {$version->versionNumber}{else} yeni bir versiyon{/if} ekledi <strong>{$version->getFile()->getTitle()}</strong>.]]></item>
+		<item name="filebase.file.version.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} <strong>{$version->getFile()->getTitle()}</strong> dosyasına {#$timesTriggered} yeni sürüm ekledi..]]></item>
 		<item name="filebase.file.version.notification.moderation.enable.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if}, dosyanızın bir versiyonunu onayladı <strong>{$version->getFile()->getTitle()}</strong>.]]></item>
 		<item name="filebase.file.version.notification.moderation.enable.notification.title"><![CDATA[Dosyanızın Bir Versiyonu Onaylandı]]></item>
 		<item name="filebase.file.version.notification.moderation.trash.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if}, dosyanızın bir versiyonunu çöpe attı <strong>{$version->getFile()->getTitle()}</strong>{if !$userNotificationObject->getDecoratedObject()->__get('reason')|empty} sebep “{$userNotificationObject->getDecoratedObject()->reason|truncate:255:'…'}”{/if}.]]></item>
 		<item name="filebase.file.version.notification.moderation.trash.notification.title"><![CDATA[Dosyanızın Bir Versiyonu Çöpe Atıldı]]></item>
 		<item name="filebase.file.version.notification.title"><![CDATA[Yeni Dosya Versiyonu]]></item>
+		<item name="filebase.file.version.notification.title.stacked"><![CDATA[{#$timesTriggered} yeni dosya sürümü]]></item>
 		<item name="filebase.file.version.upload"><![CDATA[Versiyon Yükle]]></item>
 		<item name="filebase.file.version.versionDownloads"><![CDATA[{@$version->downloads|shortUnit} İndirme{if $version->downloads != 1}ler{/if}]]></item>
 		<item name="filebase.file.versionNumber"><![CDATA[Versiyon Numarası]]></item>
@@ -269,8 +268,8 @@
 		<item name="filebase.file.review.ipAddress.otherUsers"><![CDATA[{$review->getIpAddress()} IP Adresi için Diğer Kullanıcılar]]></item>
 		<item name="filebase.file.review.ipAddress.review"><![CDATA[İnceleme]]></item>
 		<item name="filebase.file.review.ipAddress.title"><![CDATA[IP Adresi]]></item>
-		<item name="filebase.file.review.like.notification.message"><![CDATA[<strong>{$author}</strong> adlı kullanıcı <strong>{$review->getTitle()}</strong> adlı dosya incelemenize tepki verdi ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="filebase.file.review.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} dosya incelemenize <strong>{$review->getTitle()}</strong> adlı dosya için tepki verdi ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="filebase.file.review.like.notification.message"><![CDATA[<strong>{$author}</strong> adlı kullanıcı <strong>{$review->getTitle()}</strong> adlı dosya incelemenize ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}) ile tepki verdi.]]></item>
+		<item name="filebase.file.review.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} dosya incelemenize <strong>{$review->getTitle()}</strong> adlı dosya için ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}) ile tepki verdi.]]></item>
 		<item name="filebase.file.review.like.notification.title"><![CDATA[Dosya incelemenize tepki]]></item>
 		<item name="filebase.file.review.like.notification.title.stacked"><![CDATA[{#$count} kullanıcı dosya incelemenize tepki verdi]]></item>
 		<item name="filebase.file.review.moderation.info"><![CDATA[Yeni oluşturulan incelemeler, bir moderatör tarafından onaylanana kadar diğerleri tarafından erişilemez durumda olacaktır.]]></item>
@@ -282,7 +281,7 @@
 		<item name="filebase.file.review.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Misafir biri{/if} adlı kullanıcı <strong>{$review->getViewableFile()->getTitle()}</strong> adlı dosyanıza <strong>{$review->getTitle()}</strong> adında değerlendirme yaptı.]]></item>
 		<item name="filebase.file.review.notification.title"><![CDATA[Yeni İnceleme]]></item>
 		<item name="filebase.file.review.rating"><![CDATA[{plural value=$rating one='# Yıldız' other='# Yıldız'}{if !$numberOfRatings|empty}; {plural value=$numberOfRatings one='# İnceleme' other='# İnceleme'}{/if}]]></item>
-		<item name="filebase.file.review.recentActivity.title"><![CDATA[{if $review->getViewableFile()->hasLabels()}<ul class="labelList">{foreach from=$review->getViewableFile()->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}{anchor object=$review->getViewableFile() class='filebaseFileLink'} adlı dosyaya <a href="{$review->getLink()}">{$review->getTitle()}</a> adında değerlendirme yaptı.]]></item>
+		<item name="filebase.file.review.recentActivity.title"><![CDATA[<strong>{$author}</strong>, {if $file->hasLabels()}<ul class="labelList">{foreach from=$file->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$file->getTitle()}</strong> adlı dosyaya <strong>{$review->getTitle()}</strong> adında değerlendirme yaptı.]]></item>
 		<item name="filebase.file.review.response.add"><![CDATA[Cevap]]></item>
 		<item name="filebase.file.review.response.delete"><![CDATA[Cevabı Sil]]></item>
 		<item name="filebase.file.review.response.delete.confirmMessage"><![CDATA[Bu cevabı gerçekten silmek istiyor musunuz?]]></item>
